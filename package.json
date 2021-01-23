@@ -9,7 +9,7 @@
 		"start:lambda": "netlify-lambda serve functions"
 	},
 	"dependencies": {
-		"isomorphic-fetch": "^3.0.0",
+		"isomorphic-unfetch": "^3.1.0",
 		"netlify-lambda": "^2.0.3",
 		"next": "10.0.5",
 		"react": "17.0.1",
