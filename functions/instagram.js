@@ -5,7 +5,7 @@
 //   res.json({ name: 'John Doe' })
 // }
 
-import fetch from 'isomorphic-fetch'
+require('isomorphic-unfetch')
 
 const url = `https://www.instagram.com/graphql/query/?query_hash=003056d32c2554def87228bc3fd9668a&variables={"id":"554900676","first":4}`
 
